@@ -1,0 +1,1403 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PPJDV5PZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#047857" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- SEO METADATA OPTIMIZED FOR TIC88 VIP KEYWORDS -->
+  <meta name="description" content="Trang chủ TIC88 VIP chính thức. Khám phá hệ thống VIP TIC88, nhận ưu đãi VIP TIC88 cực khủng, quà tặng VIP TIC88 hấp dẫn và trải nghiệm đặc quyền TIC88 VIP đỉnh cao dành cho hội viên đẳng cấp." />
+  <meta name="keywords" content="VIP TIC88, TIC88 VIP, hệ thống VIP TIC88, ưu đãi VIP TIC88, quà tặng Vip Tic88, đặc quyền Tic88 VIP" />
+  <title>TIC88 VIP - Hệ Thống VIP TIC88, Đặc Quyền & Quà Tặng VIP TIC88 Cực Khủng</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+  <style>
+    /* TIC88 VIP BRANDING - VIBRANT GREEN, ORANGE & RED-ORANGE PALETTE */
+    :root {
+      /* Background image overlay & base background */
+      --bg-image: url('https://kerckewijck.nl/wp-content/uploads/2026/09/background.webp'); 
+      --bg-overlay-color: rgba(3, 35, 22, 0.65); 
+
+      /* Primary Green Palette */
+      --primary: #10b981;
+      --primary-dark: #047857;
+      --primary-deep: #064e3b;
+      --primary-gradient: linear-gradient(135deg, #10b981 0%, #047857 100%);
+      
+      /* Vibrant Orange & Red-Orange Accents */
+      --accent-orange: #f97316;
+      --accent-red-orange: #ea580c;
+      --accent-glow: #fbbf24;
+      --gold-light: #ffedd5;
+
+      --bg: #f0fdf4;
+      --bg-2: #dcfce7;
+      --surface: rgba(255, 255, 255, 0.96);
+      --surface-solid: #ffffff;
+
+      --text: #022c22;
+      --text-soft: #166534;
+      --border: rgba(16, 185, 129, 0.35);
+
+      --success: #15803d;
+      --danger: #dc2626;
+
+      --shadow-lg: 0 26px 70px rgba(4, 120, 87, 0.28);
+      --shadow-md: 0 16px 40px rgba(4, 120, 87, 0.18);
+
+      --radius-xl: 34px;
+      --radius-lg: 24px;
+      --radius-md: 16px;
+      --radius-sm: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: "Be Vietnam Pro", "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 15% 20%, rgba(249, 115, 22, 0.22), transparent 30%),
+        radial-gradient(circle at 92% 22%, rgba(240, 253, 244, 0.98), transparent 30%),
+        radial-gradient(circle at 75% 100%, rgba(16, 185, 129, 0.25), transparent 35%),
+        linear-gradient(135deg, #f0fdf4 0%, var(--bg) 50%, #fff7ed 100%);
+      overflow-x: hidden;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .page {
+      position: relative;
+      min-height: 100vh;
+      isolation: isolate;
+      overflow: hidden;
+      padding-bottom: 80px;
+    }
+
+    .page-bg-image {
+      position: absolute;
+      inset: 0;
+      z-index: -3;
+      background:
+        linear-gradient(var(--bg-overlay-color), var(--bg-overlay-color)),
+        var(--bg-image) center / cover no-repeat fixed;
+      pointer-events: none;
+    }
+
+    .page::before,
+    .page::after {
+      content: "";
+      position: absolute;
+      pointer-events: none;
+      z-index: -2;
+    }
+
+    .page::before {
+      width: 780px;
+      height: 780px;
+      left: -230px;
+      top: -260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(249, 115, 22, 0.35), rgba(249, 115, 22, 0) 70%);
+      filter: blur(10px);
+    }
+
+    .page::after {
+      width: 900px;
+      height: 600px;
+      right: -320px;
+      bottom: -260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.35), rgba(16, 185, 129, 0) 70%);
+      filter: blur(16px);
+    }
+
+    .grid-lines {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      opacity: 0.35;
+      pointer-events: none;
+      background:
+        linear-gradient(118deg, transparent 0 27%, rgba(16, 185, 129, 0.08) 27.15%, transparent 27.4% 100%),
+        linear-gradient(62deg, transparent 0 63%, rgba(249, 115, 22, 0.09) 63.15%, transparent 63.4% 100%),
+        linear-gradient(180deg, rgba(255,255,255,0.25), rgba(255,255,255,0));
+    }
+
+    .code-section {
+      width: 100%;
+      padding: clamp(28px, 3.2vw, 48px) clamp(24px, 4vw, 68px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .section-inner {
+      width: min(100%, 1540px);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: center;
+      gap: clamp(24px, 3vw, 42px);
+    }
+
+    .top-section {
+      width: 100%;
+      flex: 0 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero-copy {
+      width: 100%;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 0 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      z-index: 20;
+    }
+
+    .brand-logo-img {
+      height: 80px;
+      width: auto;
+      max-width: 300px;
+      object-fit: contain;
+      filter: drop-shadow(0 6px 12px rgba(4, 120, 87, 0.4));
+    }
+
+    .eyebrow {
+      width: 100%;
+      margin: 14px auto 0;
+      text-align: center;
+      font-size: clamp(18px, 1.8vw, 28px);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #ffffff;
+      text-wrap: balance;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6), 0 0 15px rgba(249, 115, 22, 0.5);
+    }
+
+    .trust-row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 16px;
+    }
+
+    .trust-pill {
+      padding: 8px 20px;
+      border-radius: 999px;
+      border: 1.5px solid rgba(249, 115, 22, 0.7);
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(254, 215, 170, 0.95));
+      color: var(--primary-deep);
+      font-weight: 900;
+      font-size: 13px;
+      box-shadow: 0 8px 22px rgba(4, 120, 87, 0.15);
+      backdrop-filter: blur(10px);
+    }
+
+    .content-section {
+      width: 100%;
+      flex: 1 1 auto;
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: clamp(28px, 3.6vw, 64px);
+      align-items: center;
+      justify-content: stretch;
+    }
+
+    .content-section::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: -18px;
+      width: min(460px, 55%);
+      height: 1px;
+      transform: translateX(-50%);
+      background: linear-gradient(90deg, transparent, rgba(249, 115, 22, 0.45), transparent);
+      pointer-events: none;
+    }
+
+    .visual-column {
+      width: 100%;
+      min-width: 0;
+      min-height: 560px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .hero-stage {
+      position: relative;
+      width: min(100%, 640px);
+      height: 540px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .circle-backdrop {
+      position: absolute;
+      width: clamp(320px, 82%, 460px);
+      height: clamp(320px, 82%, 460px);
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: radial-gradient(circle at 35% 35%, #ffffff 0%, #a7f3d0 40%, #f97316 80%, #ea580c 100%);
+      border: 6px solid rgba(249, 115, 22, 0.85);
+      box-shadow:
+        0 0 50px rgba(16, 185, 129, 0.5),
+        inset 0 0 30px rgba(255, 255, 255, 0.85);
+      z-index: 1;
+      animation: breathe 5s ease-in-out infinite;
+    }
+
+    .circle-backdrop::before {
+      content: "";
+      position: absolute;
+      inset: -18px;
+      border-radius: 50%;
+      border: 2px dashed rgba(249, 115, 22, 0.85);
+      animation: spinRing 25s linear infinite;
+    }
+
+    .visual-image {
+      position: relative;
+      z-index: 3;
+      width: auto;
+      max-width: 95%;
+      max-height: 470px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto;
+      filter: drop-shadow(0 20px 32px rgba(4, 120, 87, 0.45));
+      animation: floatVisual 6s ease-in-out infinite;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    .gift {
+      position: absolute;
+      z-index: 6;
+      bottom: 8%;
+      left: 3%;
+      width: 100px;
+      height: 78px;
+      border-radius: 16px;
+      background:
+        linear-gradient(90deg, transparent 42%, #fbbf24 42% 58%, transparent 58%),
+        linear-gradient(#f97316, #ea580c);
+      border: 3px solid #fbbf24;
+      box-shadow: 0 16px 26px rgba(4, 120, 87, 0.35);
+      transform: rotate(-9deg);
+      animation: floatVisual 5s ease-in-out infinite reverse;
+    }
+
+    .gift::before {
+      content: "";
+      position: absolute;
+      left: -4px;
+      right: -4px;
+      top: 18px;
+      height: 16px;
+      border-radius: 6px;
+      background: linear-gradient(90deg, #10b981, #6ee7b7, #10b981);
+    }
+
+    .gift.right {
+      left: auto;
+      right: 3%;
+      bottom: 10%;
+      transform: rotate(9deg) scale(0.92);
+    }
+
+    .form-column {
+      width: 100%;
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 5;
+    }
+
+    .form-shell {
+      position: relative;
+      width: min(100%, 620px);
+      margin: 0 auto;
+      padding: 34px;
+      border-radius: var(--radius-xl);
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(240, 253, 244, 0.94));
+      border: 2px solid rgba(249, 115, 22, 0.65);
+      box-shadow:
+        var(--shadow-lg),
+        inset 0 1px 0 rgba(255, 255, 255, 0.95);
+      overflow: hidden;
+      backdrop-filter: blur(18px);
+    }
+
+    .form-shell::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(circle at 95% 0%, rgba(249, 115, 22, 0.28), transparent 28%),
+        radial-gradient(circle at 5% 100%, rgba(16, 185, 129, 0.20), transparent 30%);
+    }
+
+    .form-head {
+      position: relative;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .form-kicker {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 7px 18px;
+      border-radius: 999px;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #f97316, #ea580c);
+      box-shadow: 0 10px 22px rgba(249, 115, 22, 0.35);
+    }
+
+    .form-title {
+      position: relative;
+      margin: 0;
+      font-size: clamp(32px, 3.6vw, 50px);
+      line-height: 1.1;
+      font-weight: 1000;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+      background: linear-gradient(180deg, #064e3b 0%, #047857 60%, #022c22 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      filter: drop-shadow(0 3px 6px rgba(4, 120, 87, 0.25));
+    }
+
+    .form-title span {
+      display: block;
+      margin-top: 2px;
+      background: linear-gradient(180deg, #f97316 0%, #ea580c 50%, #c2410c 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      filter: drop-shadow(0 2px 4px rgba(234, 88, 12, 0.35));
+    }
+
+    .form-subtitle {
+      margin-top: 14px;
+      color: var(--text-soft);
+      font-size: 14px;
+      line-height: 1.65;
+      font-weight: 600;
+    }
+
+    .field {
+      margin-top: 18px;
+    }
+
+    .field label {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      margin-bottom: 9px;
+      color: var(--primary-dark);
+      font-size: 14px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .03em;
+    }
+
+    .label-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 9px;
+      display: grid;
+      place-items: center;
+      flex: 0 0 28px;
+      color: #ffffff;
+      background: linear-gradient(135deg, #f97316, #ea580c);
+      font-size: 13px;
+      box-shadow: 0 7px 15px rgba(249, 115, 22, 0.30);
+    }
+
+    .input-wrap input {
+      width: 100%;
+      min-height: 62px;
+      padding: 0 18px;
+      border: 2px solid rgba(16, 185, 129, 0.35);
+      border-radius: 17px;
+      color: var(--text);
+      background: rgba(255,255,255,0.92);
+      outline: none;
+      font-size: 15px;
+      font-weight: 600;
+      transition: all .25s ease;
+    }
+
+    .input-wrap input::placeholder {
+      color: #15803d;
+      opacity: 0.65;
+      font-weight: 500;
+    }
+
+    .input-wrap input:focus {
+      border-color: var(--primary);
+      background: white;
+      box-shadow: 0 0 0 5px rgba(16, 185, 129, 0.18);
+    }
+
+    .submit-btn {
+      position: relative;
+      width: 100%;
+      min-height: 72px;
+      margin-top: 22px;
+      border: 0;
+      border-radius: 19px;
+      overflow: hidden;
+      color: #ffffff;
+      background: linear-gradient(135deg, #f97316 0%, #ea580c 50%, #047857 100%);
+      font-size: clamp(19px, 1.8vw, 24px);
+      font-weight: 1000;
+      letter-spacing: .01em;
+      box-shadow: 0 16px 32px rgba(4, 120, 87, 0.38);
+      transition: all .22s ease;
+      cursor: pointer;
+    }
+
+    .submit-btn::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -38%;
+      width: 30%;
+      transform: skewX(-22deg);
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.65), transparent);
+      animation: shine 3.8s ease-in-out infinite;
+    }
+
+    .submit-btn:hover {
+      transform: translateY(-3px) scale(1.005);
+      box-shadow: 0 22px 40px rgba(4, 120, 87, 0.48), 0 0 0 5px rgba(249, 115, 22, 0.30);
+    }
+
+    .button-content {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .btn-arrow {
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.25);
+      animation: pulseArrow 2s ease-in-out infinite;
+    }
+
+    .helper-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .helper-link {
+      min-height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 0 15px 0 18px;
+      text-decoration: none;
+      border: 1.5px solid rgba(16, 185, 129, 0.35);
+      border-radius: 999px;
+      color: var(--primary-dark);
+      background: rgba(255,255,255,0.85);
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      transition: all .22s ease;
+    }
+
+    .helper-link:hover {
+      transform: translateY(-2px);
+      border-color: rgba(16, 185, 129, 0.70);
+      background: white;
+      box-shadow: 0 12px 24px rgba(4, 120, 87, 0.16);
+    }
+
+    .helper-icon {
+      width: 29px;
+      height: 29px;
+      display: grid;
+      place-items: center;
+      flex: 0 0 29px;
+      border-radius: 50%;
+      color: #ffffff;
+      background: linear-gradient(135deg, #f97316, #ea580c);
+      box-shadow: 0 6px 14px rgba(249, 115, 22, 0.25);
+    }
+
+    .form-note {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      color: var(--text-soft);
+      font-size: 11px;
+      line-height: 1.65;
+    }
+
+    .secure {
+      color: var(--success);
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .status-message {
+      min-height: 0;
+      margin-top: 12px;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--success);
+      opacity: 0;
+      transform: translateY(4px);
+      transition: opacity .25s ease, transform .25s ease;
+      text-align: center;
+      padding: 10px;
+      background: rgba(21, 128, 61, 0.12);
+      border-radius: 8px;
+      border: 1px solid rgba(21, 128, 61, 0.35);
+      display: none;
+    }
+
+    .status-message.show {
+      display: block;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .extra-sections {
+      width: min(100%, 1340px);
+      margin: 20px auto 0;
+      padding: 0 clamp(24px, 4vw, 68px);
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .section-header-custom {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .section-title-custom {
+      font-size: clamp(26px, 3vw, 42px);
+      font-weight: 1000;
+      color: var(--primary-deep);
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+      background: linear-gradient(180deg, #064e3b 0%, #047857 60%, #022c22 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      filter: drop-shadow(0 3px 6px rgba(4, 120, 87, 0.18));
+    }
+
+    .section-title-custom span {
+      color: var(--accent-orange);
+      -webkit-background-clip: unset;
+      background-clip: unset;
+      background: none;
+      display: inline;
+    }
+
+    .section-subtitle-custom {
+      color: var(--text-soft);
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+
+    /* REALTIME TICKER SECTION */
+    .ticker-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 24px;
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--primary-deep);
+      text-transform: uppercase;
+    }
+
+    .live-dot {
+      width: 10px;
+      height: 10px;
+      background-color: var(--success);
+      border-radius: 50%;
+      display: inline-block;
+      box-shadow: 0 0 10px var(--success);
+      animation: pulseDot 1.5s infinite;
+    }
+
+    .ticker-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .ticker-card {
+      background: rgba(255, 255, 255, 0.94);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 10px 25px rgba(4, 120, 87, 0.08);
+      backdrop-filter: blur(12px);
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .ticker-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--accent-orange);
+    }
+
+    .ticker-user {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-soft);
+      margin-bottom: 6px;
+    }
+
+    .ticker-code-badge {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--primary-dark);
+      background: var(--bg-2);
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px dashed var(--primary);
+      display: inline-block;
+    }
+
+    .ticker-reward {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--accent-red-orange);
+      text-align: right;
+    }
+
+    /* GIFTCODE LIST SECTION */
+    .giftcode-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+
+    .giftcode-card {
+      background: rgba(255, 255, 255, 0.94);
+      border: 2px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      box-shadow: 0 12px 30px rgba(4, 120, 87, 0.1);
+      backdrop-filter: blur(12px);
+      transition: all 0.3s ease;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .giftcode-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--accent-orange);
+      box-shadow: var(--shadow-md);
+      background: #ffffff;
+    }
+
+    .gc-tag {
+      position: absolute;
+      top: -14px;
+      right: 20px;
+      background: linear-gradient(135deg, #f97316, #ea580c);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 900;
+      padding: 6px 14px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      box-shadow: 0 6px 15px rgba(249, 115, 22, 0.35);
+    }
+
+    .gc-value {
+      font-size: 34px;
+      font-weight: 1000;
+      color: var(--primary-deep);
+      margin-bottom: 4px;
+      line-height: 1;
+    }
+
+    .gc-name {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 20px;
+    }
+
+    .gc-action-box {
+      background: var(--bg-2);
+      border: 1.5px dashed var(--primary);
+      padding: 10px;
+      border-radius: var(--radius-md);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+    }
+
+    .gc-code-text {
+      font-size: 16px;
+      font-weight: 900;
+      color: var(--primary-dark);
+      letter-spacing: 0.05em;
+      padding-left: 8px;
+    }
+
+    .btn-copy-small {
+      background: linear-gradient(135deg, var(--accent-orange), var(--accent-red-orange));
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 10px rgba(249, 115, 22, 0.25);
+    }
+
+    .btn-copy-small:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(249, 115, 22, 0.45);
+      filter: brightness(1.1);
+    }
+
+    /* HỆ THỐNG VIP TIC88 SECTION */
+    .vip-levels-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .vip-card-level {
+      background: linear-gradient(145deg, #ffffff, #f0fdf4);
+      border: 2px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      text-align: center;
+      position: relative;
+      transition: all 0.3s ease;
+      box-shadow: 0 10px 25px rgba(4, 120, 87, 0.08);
+    }
+
+    .vip-card-level:hover {
+      transform: translateY(-5px);
+      border-color: var(--accent-orange);
+      box-shadow: 0 18px 35px rgba(249, 115, 22, 0.2);
+    }
+
+    .vip-badge-icon {
+      width: 60px;
+      height: 60px;
+      margin: 0 auto 14px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent-orange), var(--accent-red-orange));
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 26px;
+      box-shadow: 0 8px 18px rgba(249, 115, 22, 0.35);
+    }
+
+    .vip-level-title {
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--primary-deep);
+      margin-bottom: 8px;
+    }
+
+    .vip-level-desc {
+      font-size: 13px;
+      color: var(--text-soft);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .vip-stat-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-top: 1px dashed var(--border);
+      padding-top: 12px;
+      text-align: left;
+      font-size: 13px;
+    }
+
+    .vip-stat-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      font-weight: 600;
+    }
+
+    .vip-stat-val {
+      color: var(--accent-red-orange);
+      font-weight: 800;
+    }
+
+    /* ĐẶC QUYỀN TIC88 VIP SECTION */
+    .privilege-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .privilege-card {
+      background: #ffffff;
+      border-radius: var(--radius-lg);
+      padding: 26px;
+      border: 1.5px solid rgba(16, 185, 129, 0.25);
+      box-shadow: 0 10px 25px rgba(4, 120, 87, 0.08);
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      transition: all 0.3s ease;
+    }
+
+    .privilege-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent-orange);
+      box-shadow: 0 16px 32px rgba(249, 115, 22, 0.18);
+    }
+
+    .privilege-icon {
+      width: 52px;
+      height: 52px;
+      flex: 0 0 52px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 24px;
+      box-shadow: 0 8px 16px rgba(16, 185, 129, 0.3);
+    }
+
+    .privilege-content h3 {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--primary-deep);
+      margin-bottom: 6px;
+    }
+
+    .privilege-content p {
+      font-size: 13px;
+      color: var(--text-soft);
+      line-height: 1.6;
+    }
+
+    /* ANIMATIONS & RESPONSIVE */
+    .spark {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #fff;
+      box-shadow: 0 0 14px rgba(255,255,255,0.9), 0 0 24px rgba(249, 115, 22, 0.85);
+      opacity: .9;
+      animation: sparkle 2.4s ease-in-out infinite;
+      pointer-events: none;
+    }
+
+    .spark.s1 { left: 7%; top: 21%; animation-delay: -.4s; }
+    .spark.s2 { left: 19%; top: 76%; animation-delay: -1.5s; transform: scale(.7); }
+    .spark.s3 { left: 74%; top: 17%; animation-delay: -.8s; transform: scale(.6); }
+    .spark.s4 { left: 89%; top: 68%; animation-delay: -.1s; transform: scale(.85); }
+
+    @keyframes floatVisual {
+      0%, 100% { transform: translateY(0) translateX(0); }
+      50% { transform: translateY(-12px) translateX(4px); }
+    }
+
+    @keyframes breathe {
+      0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: .88; }
+      50% { transform: translate(-50%, -50%) scale(1.06); opacity: 1; }
+    }
+
+    @keyframes spinRing {
+      0% { transform: translate(0, 0) rotate(0deg); }
+      100% { transform: translate(0, 0) rotate(360deg); }
+    }
+
+    @keyframes shine {
+      0%, 30% { left: -38%; }
+      56%, 100% { left: 120%; }
+    }
+
+    @keyframes pulseArrow {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(3px); }
+    }
+
+    @keyframes sparkle {
+      0%, 100% { opacity: .25; transform: scale(.65); }
+      50% { opacity: 1; transform: scale(1.18); }
+    }
+
+    @keyframes pulseDot {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.5); opacity: 0.5; }
+    }
+
+    @media (max-width: 1080px) {
+      .code-section { padding: 30px 20px; }
+      .content-section { grid-template-columns: 1fr; gap: 28px; }
+      .visual-column { min-height: 480px; }
+      .extra-sections { padding: 0 20px; }
+    }
+
+    @media (max-width: 760px) {
+      .code-section { padding: 22px 14px 28px; }
+      .section-inner { gap: 20px; }
+      .brand-logo-img { height: 60px; }
+      .eyebrow { font-size: 15px; }
+      .trust-pill { font-size: 11px; padding: 7px 12px; }
+      .visual-column { min-height: 380px; }
+      .hero-stage { height: 380px; }
+      .gift { width: 80px; height: 62px; }
+      .form-shell { padding: 22px 17px; border-radius: 24px; }
+      .form-title { font-size: 30px; }
+      .input-wrap input { min-height: 58px; }
+      .submit-btn { min-height: 65px; font-size: 18px; }
+      .helper-links { grid-template-columns: 1fr; }
+      .section-title-custom { font-size: 26px; }
+      .extra-sections { padding: 0 14px; gap: 40px; }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPJDV5PZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <main class="page">
+    <div class="page-bg-image" aria-hidden="true"></div>
+    <div class="grid-lines" aria-hidden="true"></div>
+    <span class="spark s1" aria-hidden="true"></span>
+    <span class="spark s2" aria-hidden="true"></span>
+    <span class="spark s3" aria-hidden="true"></span>
+    <span class="spark s4" aria-hidden="true"></span>
+
+    <section class="code-section" aria-labelledby="code-title">
+      <div class="section-inner">
+
+        <!-- ========================= SECTION 1: TOP HERO (CANH GIỮA 100%) ========================= -->
+        <div class="top-section">
+          <div class="hero-copy">
+
+            <!-- [THAY LOGO TIC88 VIP TẠI ĐÂY] -->
+            <img class="brand-logo-img" src="https://kerckewijck.nl/wp-content/uploads/2026/10/logo-tic88-new.webp" alt="TIC88 VIP - Hệ Thống VIP TIC88 Đẳng Cấp" id="tic88VipLogo" />
+
+            <h1 class="eyebrow" id="heroEyebrow">VIP TIC88 - HỆ THỐNG VIP TIC88 &amp; ĐẶC QUYỀN TIC88 VIP MỖI NGÀY</h1>
+
+            <div class="trust-row" aria-label="Ưu điểm TIC88 VIP">
+              <span class="trust-pill">VIP TIC88 ĐẲNG CẤP</span>
+              <span class="trust-pill">ƯU ĐÃI VIP TIC88 24/7</span>
+              <span class="trust-pill">ĐẶC QUYỀN TIC88 VIP</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========================= SECTION 2: CONTENT SECTION (2 CỘT TRÁI - PHẢI) ========================= -->
+        <div class="content-section">
+
+          <!-- CỘT BÊN TRÁI: Visual nhân vật VIP TIC88 -->
+          <div class="visual-column">
+            <div class="hero-stage">
+              <div class="circle-backdrop" aria-hidden="true"></div>
+
+              <!-- [THAY HÌNH BANNER / NHÂN VẬT VIP TIC88 TẠI ĐÂY] -->
+              <img class="visual-image" src="https://kerckewijck.nl/wp-content/uploads/2026/10/giftcode-tic88.webp" alt="Ưu đãi VIP TIC88 - Quà Tặng VIP TIC88" id="realVisualImg" />
+
+              <div class="gift"></div>
+              <div class="gift right"></div>
+            </div>
+          </div>
+
+          <!-- CỘT BÊN PHẢI: Form Kích hoạt & Nhận Quà Tặng VIP TIC88 -->
+          <div class="form-column">
+            <div class="form-shell" id="redeemFormWrapper">
+              <div class="form-head">
+                <span class="form-kicker">THÀNH VIÊN TIC88 VIP</span>
+                <div class="form-title" id="code-title">
+                  KÍCH HOẠT VIP TIC88
+                  <span>NHẬN ƯU ĐÃI VIP TIC88</span>
+                </div>
+                <p class="form-subtitle">Điền mã quà tặng VIP TIC88 và tên tài khoản để kích hoạt đặc quyền TIC88 VIP ngay hôm nay.</p>
+              </div>
+
+              <!-- Form HTML -->
+              <form class="form" id="codeForm" onsubmit="handleFormSubmit(event)">
+                <div class="field">
+                  <label for="codeInputValue">
+                    <span class="label-icon">👑</span>
+                    MÃ QUÀ TẶNG VIP TIC88
+                  </label>
+                  <div class="input-wrap">
+                    <input type="text" id="codeInputValue" placeholder="Nhập mã ưu đãi VIP TIC88..." required autocomplete="off" />
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label for="usernameInputValue">
+                    <span class="label-icon">👤</span>
+                    TÊN TÀI KHOẢN TIC88 VIP
+                  </label>
+                  <div class="input-wrap">
+                    <input type="text" id="usernameInputValue" placeholder="Nhập tên tài khoản VIP..." required autocomplete="off" />
+                  </div>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                  <div class="button-content">
+                    <span>NHẬN QUÀ TẶNG VIP TIC88 NGAY</span>
+                    <span class="btn-arrow">⚡</span>
+                  </div>
+                </button>
+
+                <div class="status-message" id="statusMsg"></div>
+              </form>
+
+              <div class="helper-links">
+                <a href="https://tinyurl.com/pagesdev" class="helper-link" target="_blank" rel="noopener noreferrer">
+                  <span>ĐĂNG KÝ TIC88 VIP</span>
+                  <span class="helper-icon">➕</span>
+                </a>
+                <a href="https://kerckewijck.nl/" class="helper-link" target="_blank" rel="noopener noreferrer">
+                  <span>HỖ TRỢ VIP 24/7</span>
+                  <span class="helper-icon">💬</span>
+                </a>
+              </div>
+
+              <div class="form-note">
+                <span class="secure">🔒 TỐI MẬT VIP</span>
+                <span>Thông tin hệ thống VIP TIC88 được bảo mật tuyệt đối 100%.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================= CÁC SECTION BỔ SUNG ========================= -->
+    <div class="extra-sections">
+      
+      <!-- ========================= SECTION 3: LỊCH SỬ THÀNH VIÊN NHẬN QUÀ TẶNG VIP TIC88 REALTIME ========================= -->
+      <section>
+        <div class="ticker-header">
+          <span class="live-dot"></span>
+          LỊCH SỬ NHẬN QUÀ TẶNG VIP TIC88 REALTIME
+        </div>
+        
+        <div class="ticker-grid">
+          <!-- Item 1 -->
+          <div class="ticker-card">
+            <div>
+              <div class="ticker-user">Tài khoản VIP: tic88_diamond***</div>
+              <div class="ticker-code-badge">VIP DIAMOND</div>
+            </div>
+            <div class="ticker-reward">+8.888.000 VNĐ</div>
+          </div>
+          <!-- Item 2 -->
+          <div class="ticker-card">
+            <div>
+              <div class="ticker-user">Tài khoản VIP: hoang_vip***88</div>
+              <div class="ticker-code-badge">VIP PLATINUM</div>
+            </div>
+            <div class="ticker-reward">+3.888.000 VNĐ</div>
+          </div>
+          <!-- Item 3 -->
+          <div class="ticker-card">
+            <div>
+              <div class="ticker-user">Tài khoản VIP: minh_gold***99</div>
+              <div class="ticker-code-badge">VIP GOLD</div>
+            </div>
+            <div class="ticker-reward">+1.888.000 VNĐ</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================= SECTION 4: HỆ THỐNG VIP TIC88 (MỚI BỔ SUNG) ========================= -->
+      <section>
+        <div class="section-header-custom">
+          <h2 class="section-title-custom">HỆ THỐNG <span>VIP TIC88</span> ĐẲNG CẤP HÀNG ĐẦU</h2>
+          <p class="section-subtitle-custom">Thăng cấp dễ dàng, tận hưởng siêu ưu đãi VIP TIC88 cùng cấp độ thưởng thăng hạng không giới hạn.</p>
+        </div>
+
+        <div class="vip-levels-grid">
+          <!-- Level 1: VIP Silver / Gold -->
+          <div class="vip-card-level">
+            <div class="vip-badge-icon">🥉</div>
+            <h3 class="vip-level-title">TIC88 VIP BẠC / VÀNG</h3>
+            <p class="vip-level-desc">Cấp độ khởi đầu dành cho thành viên gắn bó, tích lũy điểm thưởng nhanh chóng.</p>
+            <ul class="vip-stat-list">
+              <li class="vip-stat-item"><span>Thưởng thăng cấp:</span> <span class="vip-stat-val">888.000đ</span></li>
+              <li class="vip-stat-item"><span>Hoàn trả hằng ngày:</span> <span class="vip-stat-val">1.0%</span></li>
+              <li class="vip-stat-item"><span>Quà sinh nhật:</span> <span class="vip-stat-val">1.500.000đ</span></li>
+            </ul>
+          </div>
+
+          <!-- Level 2: VIP Platinum -->
+          <div class="vip-card-level">
+            <div class="vip-badge-icon">🥈</div>
+            <h3 class="vip-level-title">TIC88 VIP BẠCH KIM</h3>
+            <p class="vip-level-desc">Hạng hội viên cao cấp với quà tặng VIP TIC88 cực khủng và quyền lợi ưu tiên.</p>
+            <ul class="vip-stat-list">
+              <li class="vip-stat-item"><span>Thưởng thăng cấp:</span> <span class="vip-stat-val">3.888.000đ</span></li>
+              <li class="vip-stat-item"><span>Hoàn trả hằng ngày:</span> <span class="vip-stat-val">1.3%</span></li>
+              <li class="vip-stat-item"><span>Quà sinh nhật:</span> <span class="vip-stat-val">5.000.000đ</span></li>
+            </ul>
+          </div>
+
+          <!-- Level 3: VIP Diamond -->
+          <div class="vip-card-level">
+            <div class="vip-badge-icon">💎</div>
+            <h3 class="vip-level-title">TIC88 VIP KIM CƯƠNG</h3>
+            <p class="vip-level-desc">Đỉnh cao đặc quyền TIC88 VIP với các chế độ phục vụ riêng biệt 1-on-1.</p>
+            <ul class="vip-stat-list">
+              <li class="vip-stat-item"><span>Thưởng thăng cấp:</span> <span class="vip-stat-val">18.888.000đ</span></li>
+              <li class="vip-stat-item"><span>Hoàn trả hằng ngày:</span> <span class="vip-stat-val">1.8%</span></li>
+              <li class="vip-stat-item"><span>Quà sinh nhật:</span> <span class="vip-stat-val">20.000.000đ</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================= SECTION 5: ĐẶC QUYỀN THÀNH VIÊN VIP TIC88 (MỚI BỔ SUNG) ========================= -->
+      <section>
+        <div class="section-header-custom">
+          <h2 class="section-title-custom">ĐẶC QUYỀN THÀNH VIÊN <span>VIP TIC88</span></h2>
+          <p class="section-subtitle-custom">Trải nghiệm dịch vụ chuyên nghiệp hàng đầu cùng hàng loạt chương trình quà tặng VIP TIC88 độc quyền.</p>
+        </div>
+
+        <div class="privilege-grid">
+          <!-- Privilege 1 -->
+          <div class="privilege-card">
+            <div class="privilege-icon">⚡</div>
+            <div class="privilege-content">
+              <h3>Rút Tiền Siêu Tốc VIP</h3>
+              <p>Hệ thống ưu tiên xử lý lệnh rút tiền dành riêng cho VIP TIC88 trong vòng 1-3 phút không qua chờ đợi.</p>
+            </div>
+          </div>
+
+          <!-- Privilege 2 -->
+          <div class="privilege-card">
+            <div class="privilege-icon">🎁</div>
+            <div class="privilege-content">
+              <h3>Quà Tặng VIP TIC88 Độc Quyền</h3>
+              <p>Hưởng thụ hàng loạt phần quà tri ân dịp Lễ, Tết, Sinh Nhật và các sự kiện thăng hạng cực giá trị.</p>
+            </div>
+          </div>
+
+          <!-- Privilege 3 -->
+          <div class="privilege-card">
+            <div class="privilege-icon">🎧</div>
+            <div class="privilege-content">
+              <h3>Chuyên Viên CSKH VIP 24/7</h3>
+              <p>Mỗi hội viên VIP TIC88 được hỗ trợ bởi một trợ lý VIP riêng biệt, phục vụ tận tâm bất kể thời gian.</p>
+            </div>
+          </div>
+
+          <!-- Privilege 4 -->
+          <div class="privilege-card">
+            <div class="privilege-icon">💸</div>
+            <div class="privilege-content">
+              <h3>Ưu Đãi VIP TIC88 Hoàn Trả Top 1</h3>
+              <p>Tỷ lệ hoàn trả không giới hạn lên tới 1.8% mỗi ngày - cao nhất trên thị trường cho hệ thống VIP TIC88.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================= SECTION 6: DANH SÁCH CODE ƯU ĐÃI VIP TIC88 ========================= -->
+      <section>
+        <div class="section-header-custom">
+          <h2 class="section-title-custom">MÃ <span>QUÀ TẶNG VIP TIC88</span> &amp; ƯU ĐÃI VIP TIC88 HOT</h2>
+          <p class="section-subtitle-custom">Nhấp "Sao chép" để tự động điền mã quà tặng VIP TIC88 vào khung kích hoạt VIP phía trên.</p>
+        </div>
+
+        <div class="giftcode-grid">
+          <!-- Card 1 -->
+          <div class="giftcode-card">
+            <div class="gc-tag">TIC88 VIP GOLD</div>
+            <div class="gc-value">888.000đ</div>
+            <div class="gc-name">Thưởng Thăng Hạng VIP Gold</div>
+            <p style="font-size: 13px; color: var(--text-soft); margin-bottom: 20px;">Mã ưu đãi VIP TIC88 dành cho thành viên vừa đạt mốc VIP Gold.</p>
+            <div class="gc-action-box">
+              <span class="gc-code-text">TIC88VIPGOLD</span>
+              <button class="btn-copy-small" onclick="copyAndFill('TIC88VIPGOLD')">Sao Chép</button>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="giftcode-card">
+            <div class="gc-tag">TIC88 VIP PLATINUM</div>
+            <div class="gc-value">3.888.000đ</div>
+            <div class="gc-name">Quà Tặng VIP TIC88 Bạch Kim</div>
+            <p style="font-size: 13px; color: var(--text-soft); margin-bottom: 20px;">Mã VIP TIC88 độc quyền cho thành viên đẳng cấp Bạch Kim.</p>
+            <div class="gc-action-box">
+              <span class="gc-code-text">TIC88PLATINUM</span>
+              <button class="btn-copy-small" onclick="copyAndFill('TIC88PLATINUM')">Sao Chép</button>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="giftcode-card">
+            <div class="gc-tag">TIC88 VIP DIAMOND</div>
+            <div class="gc-value">8.888.000đ</div>
+            <div class="gc-name">Đặc Quyền VIP TIC88 Kim Cương</div>
+            <p style="font-size: 13px; color: var(--text-soft); margin-bottom: 20px;">Code quà tặng VIP TIC88 Kim Cương ngẫu nhiên tuần này.</p>
+            <div class="gc-action-box">
+              <span class="gc-code-text">TIC88DIAMOND</span>
+              <button class="btn-copy-small" onclick="copyAndFill('TIC88DIAMOND')">Sao Chép</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <script>
+    // Xử lý gửi Form Nhận Quà VIP TIC88
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const code = document.getElementById('codeInputValue').value.trim();
+      const username = document.getElementById('usernameInputValue').value.trim();
+      const msgBox = document.getElementById('statusMsg');
+
+      if (!code || !username) return;
+
+      // Hiển thị thông báo thành công
+      msgBox.innerHTML = `🎉 Đã gửi yêu cầu kích hoạt VIP TIC88 cho tài khoản <strong>${username}</strong> thành công!`;
+      msgBox.classList.add('show');
+
+      // Chuyển hướng người dùng tự động
+      setTimeout(() => {
+        window.open('https://tinyurl.com/pagesdev', '_blank');
+        msgBox.classList.remove('show');
+      }, 1500);
+    }
+
+    // Xử lý nút Sao chép & Tự động điền Mã VIP TIC88
+    function copyAndFill(codeText) {
+      const tempInput = document.createElement("input");
+      tempInput.value = codeText;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand("copy");
+      document.body.removeChild(tempInput);
+
+      // Điền mã vào input
+      const codeInput = document.getElementById('codeInputValue');
+      codeInput.value = codeText;
+      
+      // Cuộn lên form mượt mà
+      document.getElementById('redeemFormWrapper').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      
+      // Focus vào ô Tên Tài Khoản VIP
+      setTimeout(() => {
+        document.getElementById('usernameInputValue').focus();
+      }, 500);
+
+      // Hiển thị thông báo sao chép
+      const msgBox = document.getElementById('statusMsg');
+      msgBox.innerHTML = `✅ Đã sao chép mã VIP TIC88 <strong>${codeText}</strong> và tự động điền vào khung!`;
+      msgBox.classList.add('show');
+      
+      // Ẩn thông báo sau 3 giây
+      setTimeout(() => {
+        msgBox.classList.remove('show');
+      }, 3000);
+    }
+  </script>
+</body>
+</html>
